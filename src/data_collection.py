@@ -120,7 +120,7 @@ class SpotifyDataCollector:
 
         return df
 
-    def save_data(self, df, output_path='data\\raw\\kpop_data_with_synthetic_features.csv'):
+    def save_data(self, df, output_path='data\\raw\\raw_data.csv'):
         """Save DataFrame to CSV."""
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         df.to_csv(output_path, index=False)
