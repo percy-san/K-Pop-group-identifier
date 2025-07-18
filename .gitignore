@@ -1,0 +1,80 @@
+# ===============================
+# Python Machine Learning Project
+# ===============================
+
+# --- Python bytecode and build files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+env/
+.venv/
+ENV/
+env.bak/
+.ENV/
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE Config Files ---
+# PyCharm
+.idea/
+# VSCode
+.vscode/
+
+# --- Data Files ---
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.xml
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+
+# Optional data folders
+data/
+datasets/
+
+# --- Model Files ---
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.sav
+
+# Optional model folders
+models/
+checkpoints/
+outputs/
+
+# --- Logs and Output ---
+*.log
+logs/
+*.out
+*.tmp
+*.bak
+*.swp
+
+# --- OS-generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Optional: Google Colab or generated notebooks ---
+# *.ipynb

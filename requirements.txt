@@ -1,0 +1,11 @@
+spotipy
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+gradio
+python-dotenv
+joblib
+requests
+jupyter
